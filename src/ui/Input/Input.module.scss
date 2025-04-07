@@ -1,0 +1,31 @@
+.inputWrapper{
+    position: relative;
+}
+
+.input{
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: rgb(246, 246, 246);
+    padding: 12px;
+    outline: none;
+    width: 100%;
+
+    &--error{
+        border-color: red;
+    }
+}
+
+.errorMessage{
+    color: red;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.eyePic{
+    position: absolute;
+    right: -20px;
+    top: 13px;
+}
+

@@ -1,0 +1,23 @@
+.button{
+    font-weight: 550;
+
+    color: white;
+    background-color: #003eb3;
+    border-radius: 8px;
+    padding: 15px 20px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #1890ff;
+}
+
+.disabled{
+    background-color: #1890ff;
+}
+
+.loader{
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+.formWrapper{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.title{
+    color: #434343;
+}
+
+.subTitle{
+    color: #595959;
+}
+
+.bottomText{
+    font-size: 14px;
+    color: #1f1f1f;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 400px;
+    max-width: 550px;
+
+    & > * {
+        width: 100%;
+        & > .input{
+            width: 100%;
+        }
+    }
+}
+
+.apiRequestErr{
+    color: #f5222d;
+    font-weight: 550;
+}
